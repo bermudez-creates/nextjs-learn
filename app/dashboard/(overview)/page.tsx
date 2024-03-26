@@ -10,6 +10,10 @@ import {
   CardSkeleton,
 } from '@/app/ui/skeletons';
 
+export const metadata: Metadata = {
+  title: 'Dashboard Home',
+};
+
 export default async function Page() {
   return (
     <main>
